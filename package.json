@@ -1,0 +1,23 @@
+{
+  "name": "vassist-theme",
+  "displayName": "Vassist Theme",
+  "description": "",
+  "publisher": "Cx-Game",
+  "version": "0.0.8",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "./icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vassist-Color-Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Vassist-Color-Theme-color-theme.json"
+      }
+    ]
+  }
+}
